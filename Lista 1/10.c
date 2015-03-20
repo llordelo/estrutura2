@@ -1,13 +1,17 @@
-// 10­ Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.
+// 10Â­ FaÃ§a um Programa que pergunte quanto vocÃª ganha por hora e o nÃºmero de horas trabalhadas no mÃªs. Calcule e mostre o total do seu salÃ¡rio no referido mÃªs.
 
 #include <stdio.h>
 
+float sa (float x, float y){
+	return x*y;
+}
+
 main(){
-	int hq, hm;
-	printf ("Quanto você ganha por hora?\n");
-	scanf("%d",&hq);
+	float hq, hm;
+	printf ("Quanto vocÃª ganha por hora?\n");
+	scanf("%f",&hq);
 	printf ("Quais foram as suas horas trabalhada neste mes?\n");
-	scanf("%d",&hm);
-	printf ("Voce vai receber %d\n",hm*hq);
+	scanf("%f",&hm);
+	printf ("Voce vai receber %f\n",sa(hm, hq));
 	return 0;
 }
