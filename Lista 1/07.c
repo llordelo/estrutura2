@@ -1,16 +1,14 @@
-// 6­ Faça um Programa que peça as 4 notas bimestrais e mostre a média.
+// 7­ Faça um Programa que converta metros para centímetros.
 
 #include <stdio.h>
 
-float media (float n1, float n2, float n3, float n4){
-	
-	return ((n1+n2+n3+n4)/4);
+int con (int x){
+	return x*100;
 }
 
 main(){
-	float n1, n2, n3, n4;
-	
-	scanf ("%f %f %f %f",&n1,&n2,&n3,&n4);
-	printf ("%f\n",media(n1,n2,n3,n4));
+	int x;
+	scanf("%d",&x);
+	printf ("%d\n",con(x));
 	return 0;
 }
