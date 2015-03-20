@@ -1,10 +1,14 @@
-// 7­ Faça um Programa que converta metros para centímetros.
+// 7Â­ FaÃ§a um Programa que converta metros para centÃ­metros.
 
 #include <stdio.h>
+
+int con (int x){
+	return x*100;
+}
 
 main(){
 	int x;
 	scanf("%d",&x);
-	printf ("%d\n",x*100);
+	printf ("%d\n",con(x));
 	return 0;
 }
