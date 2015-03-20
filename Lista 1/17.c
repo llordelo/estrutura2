@@ -1,11 +1,15 @@
-// 17≠ FaÁa um programa que receba o sal·rio base de um funcion·rio, calcule e mostre o seu sal·rio a receber,
-//sabendo≠se que o funcion·rio tem gratificaÁ„o de R$ 50 e paga imposto de 10% sobre o sal·rio base.
+// 17¬≠ Fa√ßa um programa que receba o sal√°rio base de um funcion√°rio, calcule e mostre o seu sal√°rio a receber,
+//sabendo¬≠se que o funcion√°rio tem gratifica√ß√£o de R$ 50 e paga imposto de 10% sobre o sal√°rio base.
 
 #include <stdio.h>
+
+float im (float s){
+	return (s + 10 - ((s*10)/100));
+}
 
 main(){
 	float s;
 	scanf("%f",&s);
-	printf ("%.2f\n",s + 10 - ((s*10)/100));
+	printf ("%.2f\n",im(s));
 	return 0;
 }
