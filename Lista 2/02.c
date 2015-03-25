@@ -1,11 +1,17 @@
 #include <stdio.h>
 
+float fun (float n1, float n2, float n3){
+	float media;
+	media = ((n1+n2+n3)/3);
+	return media;
+}
+
 main(){
 	
 	float n1, n2, n3, media;
 	
 	scanf ("%d %d %d",&n1,&n2,&n3);
-	media = ((n1+n2+n3)/3);
+	media = fun (n1, n2, n3);
 	
 	
 	if (media >= 7)
