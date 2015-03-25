@@ -1,4 +1,4 @@
-// 18 ≠FaÁa um programa que calcule e mostre a ·rea de um tri‚ngulo. Supondo que: ¡rea = (base *altura) / 2.
+// 18 ¬≠Fa√ßa um programa que calcule e mostre a √°rea de um tri√¢ngulo. Supondo que: √Årea = (base *altura) / 2.
 
 #include <stdio.h>
 

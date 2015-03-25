@@ -1,4 +1,4 @@
-// 5­ Faça um Programa que peça dois números e imprima a soma.
+// 5Â­ FaÃ§a um Programa que peÃ§a dois nÃºmeros e imprima a soma.
 
 #include <stdio.h>
 

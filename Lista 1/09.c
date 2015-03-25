@@ -1,4 +1,4 @@
-// 9­ Faça um Programa que leia o tamanho de um lado do quadrado e calcule sua área em seguida mostre o dobro
+// 9Â­ FaÃ§a um Programa que leia o tamanho de um lado do quadrado e calcule sua Ã¡rea em seguida mostre o dobro
 
 #include <stdio.h>
 

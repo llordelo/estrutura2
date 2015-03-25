@@ -1,4 +1,4 @@
-// 4­ Faça um programa que receba quatro números inteiros, calcule e mostre a soma desses números.
+// 4Â­ FaÃ§a um programa que receba quatro nÃºmeros inteiros, calcule e mostre a soma desses nÃºmeros.
 
 #include <stdio.h>
 

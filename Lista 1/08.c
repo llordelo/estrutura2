@@ -1,4 +1,4 @@
-// 8­ Ler o valor do raio de um circulo e calcular a área do circulo correspondente, considere pi = 3:141592.
+// 8Â­ Ler o valor do raio de um circulo e calcular a Ã¡rea do circulo correspondente, considere pi = 3:141592.
 
 #include <stdio.h>
 

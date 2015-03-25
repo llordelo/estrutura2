@@ -1,4 +1,4 @@
-// 12 ­ Faça um programa que receba três notas, calcule e mostre a média aritmética entre elas.
+// 12 Â­ FaÃ§a um programa que receba trÃªs notas, calcule e mostre a mÃ©dia aritmÃ©tica entre elas.
 
 #include <stdio.h>
 

@@ -1,4 +1,4 @@
-// 13­ Faça um programa que receba três notas e seus respectivos pesos, calcule e mostre a média ponderada.
+// 13Â­ FaÃ§a um programa que receba trÃªs notas e seus respectivos pesos, calcule e mostre a mÃ©dia ponderada.
 
 #include <stdio.h>
 

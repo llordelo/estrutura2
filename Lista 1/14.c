@@ -1,4 +1,4 @@
-// 14­ Faça um programa que receba o salário de um funcionário, calcule e mostre o novo salário, sabendo­se que este sofreu um aumento de 25%.
+// 14Â­ FaÃ§a um programa que receba o salÃ¡rio de um funcionÃ¡rio, calcule e mostre o novo salÃ¡rio, sabendoÂ­se que este sofreu um aumento de 25%.
 
 #include <stdio.h>
 
