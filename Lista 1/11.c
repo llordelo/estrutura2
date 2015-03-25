@@ -2,9 +2,13 @@
 
 #include <stdio.h>
 
+float t (f){
+	return (5*(f-32)/9);
+}
+
 main(){
-	int f;
-	scanf("%d",&f);
-	printf ("%.2f\n",5*(f-32)/9);
+	float f;
+	scanf("%f",&f);
+	printf ("%.2f\n",t(f));
 	return 0;
 }

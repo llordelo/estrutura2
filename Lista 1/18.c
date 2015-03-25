@@ -2,9 +2,13 @@
 
 #include <stdio.h>
 
+float t (float b, float a){
+	return ((b*a)/2);
+}
+
 main(){
-	int b, a;
-	scanf("%d %d",&b,&a);
-	printf ("%d\n",(b*a)/2);
+	float b, a;
+	scanf("%f %f",&b,&a);
+	printf ("%f\n",t(b, a));
 	return 0;
 }

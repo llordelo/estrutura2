@@ -2,9 +2,13 @@
 
 #include <stdio.h>
 
+float sal (float s){
+	return (s + ((s*5)/100) - ((s*7)/100));
+}
+
 main(){
 	float s;
 	scanf("%f",&s);
-	printf ("%.2f\n",s + ((s*5)/100) - ((s*7)/100));
+	printf ("%.2f\n",sal(s));
 	return 0;
 }

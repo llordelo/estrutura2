@@ -2,9 +2,13 @@
 
 #include <stdio.h>
 
+float area (float r){
+	return 3.141592 * r*r
+}
+
 main(){
 	int r;
 	scanf("%d",&r);
-	printf ("%f\n",3.141592 * r*r);
+	printf ("%f\n",area(r));
 	return 0;
 }

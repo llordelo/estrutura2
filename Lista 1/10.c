@@ -2,12 +2,16 @@
 
 #include <stdio.h>
 
+float sa (float x, float y){
+	return x*y;
+}
+
 main(){
-	int hq, hm;
+	float hq, hm;
 	printf ("Quanto você ganha por hora?\n");
-	scanf("%d",&hq);
+	scanf("%f",&hq);
 	printf ("Quais foram as suas horas trabalhada neste mes?\n");
-	scanf("%d",&hm);
-	printf ("Voce vai receber %d\n",hm*hq);
+	scanf("%f",&hm);
+	printf ("Voce vai receber %f\n",sa(hm, hq));
 	return 0;
 }

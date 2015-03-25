@@ -2,10 +2,13 @@
 
 #include <stdio.h>
 
+int area (int l){
+	return l*l;
+}
 main(){
 	int l;
 	scanf("%d",&l);
-	printf ("%d\n",l*l);
-	printf ("%d\n",(l*l)*2);
+	printf ("%d\n",area(l));
+	printf ("%d\n",area(l)*2);
 	return 0;
 }

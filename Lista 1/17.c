@@ -3,9 +3,13 @@
 
 #include <stdio.h>
 
+float im (float s){
+	return (s + 10 - ((s*10)/100));
+}
+
 main(){
 	float s;
 	scanf("%f",&s);
-	printf ("%.2f\n",s + 10 - ((s*10)/100));
+	printf ("%.2f\n",im(s));
 	return 0;
 }

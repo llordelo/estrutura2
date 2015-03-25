@@ -2,12 +2,16 @@
 
 #include <stdio.h>
 
+int media (int n1, int n2, int n3, int n4){
+	
+	return (n1+n2+n3+n4);
+}
+
 main(){
-	int x[4], i, soma=0;
-	for (i=0;i<4;i++){
-		scanf ("%d",&x[i]);
-		soma=soma+x[i];
-	}
-	printf ("%d\n",soma);
+	int n1, n2, n3, n4;
+	
+	scanf ("%d %d %d %d",&n1,&n2,&n3,&n4);
+	printf ("%d\n",media(n1,n2,n3,n4));
 	return 0;
 }
+
