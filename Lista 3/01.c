@@ -1,0 +1,1 @@
+1) Um ponteiro é um tipo de variável que armazena endereços de memória. O valor que ele retorna é o valor que está armazenado naquela memória, então se um ponteiro apontar para uma variável significa que ele contém o endereço de momória daquela variável e todas as alterações realizadas no conteúdo desse endereço vai alterar na variável.
