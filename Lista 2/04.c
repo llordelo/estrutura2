@@ -1,15 +1,11 @@
 #include <stdio.h>
 
-main(){
-	
-	int n[3], i, j, aux;
-	
-	for (i=0;i<3;i++)
-		scanf ("%d",&n[i]);
-	
+
+void m (int n[]){
+	int aux, i, j;
 	for (i=0;i<2;i++){
 		for (j=i+1;j<3;j++){
-			if (n[i]<[j]){
+			if ( n[i] > n[j] ){
 				aux = n[i];
 				n[i] = n[j];
 				n[j] = aux;
@@ -17,9 +13,17 @@ main(){
 			
 		}
 	}
+}
+
+main(){
 	
+	int n[5], i;
+	
+	for (i=0;i<3;i++)
+		scanf ("%d",&n[i]);
+	m (n);
 	for (i=0;i<3;i++){
-		printf ("%d\n",n[i])
+		printf ("%d\n",n[i]);
 	}
 		
 	
