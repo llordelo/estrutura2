@@ -6,7 +6,7 @@ C) NÃO
 D) SIM
 E) NÃO
 F) NÃO
-G) SIM
+G) NÃO
 H) SIM
 I) NÂO
 J) NÂO
