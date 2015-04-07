@@ -2,11 +2,11 @@
 
 A) NÃO
 B) NÃO
-C) SIM
+C) NÃO
 D) NÃO
-E) SIM
+E) NÃO
 F) NÃO
 G) NÃO
-H) SIM
+H) NÃO
 I) SIM
-J) SIM
+J) NÃO
